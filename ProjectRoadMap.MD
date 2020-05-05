@@ -18,4 +18,4 @@
  [x]Made more changes to the graphical interface to make it more interactive
  [x]Run the final code in Visual Studio Code to ensure its error free.
  [x]Add the projectroadmap.md file.
- [x]Final Presentation of PY SNAKEGAME
+ [x]Final Presentation of PY SNAKEGAME.
