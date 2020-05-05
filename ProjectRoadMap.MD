@@ -19,4 +19,3 @@
  [x] Run the final code in Visual Studio Code to ensure its error free.
  [x] Add the projectroadmap.md file.
  [x] Final Presentation of PY SNAKEGAME
-
