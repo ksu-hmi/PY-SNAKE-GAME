@@ -1,0 +1,40 @@
+import turtle:
+module turtle
+Turtle graphics is a popular way for introducing programming to kids. It was part of the original Logo programming language developed by Wally Feurzig and Seymour Papert in 1966.
+
+Imagine a robotic turtle starting at (0, 0) in the x-y plane. After an import turtle, give it the command turtle.forward(15), and it moves (on-screen!) 15 pixels in the direction it is facing, drawing a line as it moves. Give it the command turtle.right(25), and it rotates in-place 25 degrees clockwise.
+
+By combining together these and similar commands, intricate shapes and pictures can easily be drawn.
+
+####
+
+This module is an extended reimplementation of turtle.py from the Python standard distribution up to Python 2.5. (See: http://www.python.org)
+
+import time:
+module time
+This module provides various functions to manipulate time values.
+
+There are two standard representations of time. One is the number of seconds since the Epoch, in UTC (a.k.a. GMT). It may be an integer or a floating point number (to represent fractions of seconds). The Epoch is system-defined; on Unix, it is generally January 1st, 1970. The actual value can be retrieved by calling gmtime(0).
+
+The other representation is a tuple of 9 integers giving local time. The tuple items are:
+
+  year (including century, e.g. 1998)  
+  month (1-12)  
+  day (1-31)  
+  hours (0-23)  
+  minutes (0-59)
+
+import random
+module random
+Random variable generators.
+
+    integers  
+    --------  
+           uniform within range  
+
+    sequences  
+    ---------  
+           pick random element  
+           pick random sample  
+           pick weighted random sample  
+           generate random permutation
